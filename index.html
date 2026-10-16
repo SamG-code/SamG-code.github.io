@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>G Family Finance</title>
+  <meta name="description" content="A private, self-hosted personal finance dashboard used only by the G household.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>G Family Finance</h1>
+    <p class="lede">A private, self-hosted personal finance dashboard used only by the G household to view our own accounts.</p>
+
+    <h2>What it is</h2>
+    <p>G Family Finance is a personal tool, not a commercial product or service. It runs on a single home computer and is not offered to the public. Its only users are members of the G household, viewing accounts they own.</p>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Shows balances for our own checking, savings, credit card and investment accounts in one place.</li>
+      <li>Tracks net worth over time.</li>
+      <li>Categorizes transactions and compares spending to a monthly household budget.</li>
+      <li>Shows investment holdings, cost basis and gains.</li>
+    </ul>
+
+    <h2>How accounts are connected</h2>
+    <p>Accounts are connected through <a href="https://plaid.com">Plaid</a>. We sign in to our own financial institutions through Plaid Link. The app never sees or stores our bank usernames or passwords. It receives read-only account, balance, transaction and investment data.</p>
+
+    <h2>How data is handled</h2>
+    <ul>
+      <li>All data is stored locally on the household computer, not on any server or cloud service.</li>
+      <li>Plaid access tokens are encrypted at rest. The encryption keys are tied to the local Windows user account.</li>
+      <li>The app accepts connections only from the computer it runs on. It is not reachable from the internet or the local network.</li>
+      <li>Data is never sold, shared, or used for advertising.</li>
+    </ul>
+
+    <p>See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+  </main>
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · Contact: <a href="https://github.com/SamG-code">github.com/SamG-code</a>
+  </footer>
+</body>
+</html>
